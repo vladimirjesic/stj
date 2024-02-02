@@ -10,4 +10,4 @@ menu.innerHTML=links;
 
 
 var footer = document.getElementById("ft");
-footer.innerHTML="<p class='mb-0 p-1'>&copy All rights reserved Vladimir Jesic 2023. | <a href='index.html' target='_blank'>Documentation</a> | <a href='index.html' target='_blank'>Sitemap</a></p>"
+footer.innerHTML="<p class='mb-0 p-1'>&copy All rights reserved Vladimir Jesic 2023. | <a href='dokumentacija.pdf' target='_blank'>Documentation</a> | <a href='sitemap.xml' target='_blank'>Sitemap</a></p>"
