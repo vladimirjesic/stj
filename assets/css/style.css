@@ -1,0 +1,239 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: lato;
+}
+
+@font-face {
+    font-family: lato;
+    src: url(../fonts/Lato-Regular.ttf);
+}
+
+p{ 
+    font-size: 16px;
+    font-family: lato; 
+}
+
+h1, h2{
+    font-size: 32px;
+    font-family: lato;
+}
+
+h3{
+    font-size: 24px;
+    font-family: lato;
+}
+
+
+img{
+    width: 100%;
+}
+
+
+a:visited{
+    font-family: lato; 
+    font-size: 16px; 
+    color: white;
+}
+
+a:link{
+    color:white;
+}
+
+a:active{
+    color: #F9B508;
+}
+
+a:hover{
+    color: #F9B508;
+}
+
+.linkh:hover{
+    color:#F9B508;
+}
+
+nav ul li a:hover{
+    color: #F9B508;
+}
+
+.btn1{
+    border-radius: 12px; 
+    width: 30%;
+    margin-top: 20px;
+    background-color: #FF8200;
+    transition-duration: 0.4s;
+}
+
+.btn1:hover{
+    background-color: white;
+}
+
+#hero-section{
+    background-image: url(../images/cover-image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 960px;
+    width: 100%;
+}
+
+#overlay{
+    background-color: rgba(8, 8, 8, 0.7);
+    height: 960px;
+    width: 100%;
+}
+
+nav{
+    background-color: #000;
+}
+
+.no-back{
+    background-color: transparent;
+}
+
+#heading{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px auto;
+    padding-top: 200px;
+    line-height: 60px;
+    color: white;
+}
+
+.heading1{
+    padding: 100px;
+}
+
+#coaches-section, #rackets-section, footer{
+    background-color: black;
+    color: white;
+}
+
+.hide{
+    display: none;
+}
+
+#btn2{
+    width: 15%;
+    padding: 10px;
+}
+
+.btn{
+    background-color: #FF8200;
+}
+
+.slider-outer{
+    padding: 50px;
+    margin: 20px;
+}
+.slider-inner{
+    
+    position: relative;
+    overflow: hidden;
+
+    
+}
+
+.slider-inner img{
+    display: none;
+}
+
+.slider-inner img.active{
+    display: inline-block;
+}
+
+.prev, .next{
+    float: left;
+    margin-top: 130px;
+    cursor: pointer;
+}
+
+.prev{
+    position: relative;
+    
+    z-index: 100;
+}
+
+.next{
+    position: relative;
+    z-index: 100;
+}
+
+.arrow{
+    border-radius: 5px;
+    margin: 0px auto;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    background: #FF8200;
+    font-size: 2em;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.arrow:hover{
+    background-color: white;
+}
+
+
+
+form {
+    color: black;
+    padding-top: 60px;
+    text-align: center;
+  }
+  form input[type=text] {
+    width: 40%;
+    
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+   form input[type=email] {
+    width: 40%;
+    border-radius: 5px;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  form textarea {
+    width: 70%;
+    margin-bottom: 20px;
+  }
+ 
+  #errorName{
+    display: none;
+  }
+  
+  #errorLName{
+    display: none;
+  }
+
+  #errorEmail{
+    display: none;
+  }
+
+  #errorQuestion{
+    display: none;
+  }
+
+  #errorPhone{
+    display: none;
+  }
+
+
+  #rackets-section img{
+    width: 50%;
+    margin: 0px auto;
+  }
+
+  #submit {
+    width: 20%;
+    height: 40px;
+  }

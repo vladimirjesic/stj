@@ -1,0 +1,45 @@
+@media screen and (max-width: 1200px) {
+ 
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+    .btn1{
+        font-size: 14px;
+    }
+
+     h1{
+        font-size: 24px;
+    }
+
+    #about-section p{
+        font-size: 12px;
+    }
+
+    #about-section button{
+        width: 50%;
+        font-size: 12px;
+    }
+
+    #contact-section .btn1{
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .btn1{
+        font-size: 14px;
+        width: 50%;
+    }
+
+     h1{
+        font-size: 22px;
+    }
+
+    .slider-outer{
+        padding: 0px;
+    }
+}
